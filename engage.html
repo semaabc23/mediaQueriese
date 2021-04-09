@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+    <title>beneficium</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn.glitch.com/a2fa6df0-d939-4c01-9632-cdfd84a88b77%2Fbeneficium.png?v=1616641506192" type="image/x-icon">
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a href="index.html" style="text-decoration:none;"><h1 id="name">b e n e f i c i u m</h1></a>
+
+    <p id="motto">
+      make small big
+    </p>
+
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">home</a>
+  <a href="clothing.html">clothing</a>
+  <a href="jewelry.html">jewelry</a>
+  <a href="food.html">food</a>
+  <a href="entertainment.html">entertainment</a>
+  <a href="engage.html">engage</a>
+  <a href="resources.html">resources</a>
+</div>
+
+<span class="menuBar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<div class="header">
+  e n g a g e
+
+    </div>
+    <p class="w3-center description"><em>New York City is filled with a multitude of small businesses. We only want to share those that we know are reliable and thus allow users to submit shops they have visited that they think qualify as a small business and should be added to the website. <br> Please fill the following information out to help!</em></p><br>
+    <div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="name" placeholder="Your name..">
+
+    <label for="sname">Shop Name</label>
+    <input type="text" id="sname" name="sname" placeholder="Shop name..">
+
+    <label for="Shoptype">Shop Type</label>
+    <select id="shop" name="Shop Type">
+      <option value="1">Clothing</option>
+      <option value="2">Food</option>
+      <option value="3">Jewelry</option>
+      <option value="4">Entertainment</option>
+    </select>
+
+    <label for="subject">Addional Information</label>
+    <textarea id="subject" name="subject" placeholder="Additional information..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit" onclick="function hi(){alert('Email has been sent! Thank you for helping!')};hi()">
+  </form>
+</div>
+
+
+  </body>
+</html>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
